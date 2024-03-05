@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configuração do cabeçalho*/
+
+.header{
+    background-image: url(Imagens/produtos/getty_coffe.jpg);
+    width: 100%;
+    height: 400px;
+    padding-top: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #330F0A;   
+}
+
+.main-1{
+    padding: 60px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 50px; 
+    background-color: #330F0A; 
+}
+
+.product{
+    display: grid;
+}
+
+.image-product{
+    height: 200px;
+    width: 230px;
+}
+
+.coffe_name{
+    text-align: center;
+    padding: 5px;
+    color: #FAFAFF;
+}
+
+.coffe_btn{
+    background-color: #FAFAFF;
+    color: #330F0A;
+    border: #FAFAFF 1px solid;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.coffe_btn:hover{
+    background-color: #330F0A;
+    color: #FAFAFF;
+}
+
+.main-2{
+    background-image: url(Imagens/produtos/cafe-e-bolo.jpg);
+    width: 100%;
+    height: 400px;
+    padding-top: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #330F0A;
+}
+
+.main-3{
+    padding: 70px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 50px; 
+    background-color: #330F0A; 
+}
+
+.main-4{
+    background-image: url(Imagens/produtos/banner-33.jpg);
+    width: 100%;
+    height: 400px;
+    padding-top: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #330F0A;
+
+}
+
+.footer{
+    padding: 70px;
+    max-width: 100%;
+    background-color: #330F0A; 
+    color: #FAFAFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social_medias{
+    padding-top: 75px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;  
+}
+
+
