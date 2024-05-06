@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+.head_banner{
+    background-image: url(/images/banners/dc-comics-superhero-hero.jpg);
+    background-position: center;
+    border: 2px black solid;
+    height: 200px;
+    width: auto;
+}
+
+/*Configuração dos icones de cabeçalho*/
+
+.head_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 200px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    background-color: #dfe0e2;
+    border: 2px solid black; 
+    width: auto;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/*Configuração dos botões do cabeçalho*/
+.head_comics{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 100px;
+    background-color: #2b1e57;
+    border: 1px solid black;
+    max-width: 100%;
+}
+
+.btn01{
+    padding: 10px;
+    max-width: 100%;
+    font-size: medium;
+    font-family: fantasy;
+    background-color: #deebeb;
+    color: #2b1e57;
+    border: #deebeb 3px solid; 
+}
+
+.btn01:hover{
+    cursor: pointer;
+    color: #00a9a5;
+    border: 3px solid #00a9a5;
+}
+
+/*Configuração da area de pesquisa*/
+.head_search{
+    background-color: #dfe0e2;
+    padding-bottom: 50px;
+    width: 100%;
+
+}
+
+.title{
+    padding:15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dfe0e2;
+}
+
+.title_decoration{
+    color: #3b2d69;
+}
+
+
+/*Configuração da barra de pesquisa*/
+
+#divBusca{
+    display: flex;
+    justify-content:center ;
+    justify-items: center;
+    align-items: center;
+    background-color:#3b2d69;
+    border: black solid 1px;
+    border-radius: 10px;
+    width:355px;
+    height: 37px;
+    margin-left: 36%;
+    margin-top: 16px;  
+}
+
+#btnBusca{
+    border-radius: 5%;
+    margin-left: 5px;
+}
+
+#btnBusca:hover{
+    cursor: pointer;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border: none;
+    height:32px;
+    width:260px;
+    color: #dfe0e2;
+}
+
+/*Configuração da imagem e do banner do best seller*/
+
+.banner_body{
+    display: flex;
+    padding: 90px;
+    background-color: #2b1e57;
+    
+}
+
+.image_seller{
+    height: 350px;
+    border: 2px solid black;
+    width: auto;
+}
+
+.title_seller{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #5c4c8f;   
+}
+
+.second_title{
+    margin: 20px;
+}
+
+.synopsis{
+    text-align: center;
+    width: 65%;
+    border:2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 2.5%;
+    width: auto;
+    background-color: #dfe0e2;
+}
+
+/* Configuração dos quadrinhos que marcaram eras*/
+
+.title_comics{
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #dfe0e2;
+}
+
+
+.history_banner1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    justify-items: center;
+    gap: 55px;
+    padding: 25px;
+    background-color: #dfe0e2;
+}
+
+.comics{
+    height: 320px;
+    width: 230px;
+    border: #2b1e57 2px solid;   
+}
+
+.comics_for_sale{
+    display: grid;
+    cursor: pointer;
+    
+}
+
+#offer{
+    background-color: #2b1e57;
+}
+
+#offer_title{
+    color: #deebeb;
+}
+
+#banner2{
+    background-color: #2b1e57;
+}
+
+.label_stories{
+    color: #2b1e57;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.label_offer{
+    color: #deebeb;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer{
+    background-color: #dfe0e2;
+}
+
+#icon_footer{
+    gap: 180px;
+}
+
+.terms{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    justify-content: center;
+    gap: 100px;  
+}
+
+#space{
+    padding: 10px;
+    text-align: center;
+}
+
+#comic5{
+    border: white 2px solid;
+}
+#comic6{
+    border: white 2px solid;
+}
+#comic7{
+    border: white 2px solid;
+}
+#comic8{
+    border: white 2px solid;
+}
+#comic9{
+    border: white 2px solid;
+}
+#comic10{
+    border: white 2px solid;
+}
+#comic11{
+    border: white 2px solid;
+}
+#comic12{
+    border: white 2px solid;
+}
