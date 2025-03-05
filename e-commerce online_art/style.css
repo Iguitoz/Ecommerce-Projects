@@ -66,7 +66,7 @@ main{
     border: 5px solid #1C0221;
     border-radius: 10px;
     position: relative;
-    margin: -20px auto 0;   
+    margin: -30px auto 0;   
 }
 
 /* Container das imagens */
@@ -79,14 +79,14 @@ main{
 
 /* Estilo de cada item do carrossel */
 .carrossel-item {
-    height: 32em;
+    height: 33em;
     width: 100%; /* Cada item ocupa 100% da largura do container */
     flex: 0 0 auto;
     background-color: #FFA69E;
 }
 
 .carrossel-item img {
-    height: 32em;
+    height: 33em;
     width: 25%;
     display: block;
 }
