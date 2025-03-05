@@ -1,0 +1,69 @@
+/* Reset css */
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+/* navegation options and banner configuration */
+
+
+/* navegation options*/
+
+.navegation{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4A442D;
+
+}
+
+h1{
+    padding-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.options_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:  10px;
+    margin: 5px;
+    gap: 22px;
+}
+
+.options{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.options:hover{
+    color: rgb(89, 89, 182);
+}
+
+/* Banner */
+
+.div_banner{
+    height: 550px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4A442D;
+    display: flex;
+/*  border: black 1px solid; */
+}
+
+.banner1{
+    height: 550px;
+    width: 100%;
+   max-width: 100%;
+}
